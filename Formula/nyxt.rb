@@ -8,7 +8,7 @@ class Nyxt < Formula
   
     depends_on "sbcl" => :build
     depends_on "libfixposix"
-    depends_on "webkitgtk"
+    depends_on "incidentist/nyxt/webkitgtk"
   
     patch do
       url "https://github.com/atlas-engineer/nyxt/commit/6184884b48b7cacdc51d104cb2299c26437a73d8.diff"
